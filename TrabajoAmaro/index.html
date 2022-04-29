@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+    
+    <body id="page-top">
+       
+ 
+        <header class="masthead">
+          <div class="team-member">
+<!-- En esta seccion añadi imagenes para qued tuviera mas personalidad la pagina" -->
+            <img class="auto rounded-circle " src="assets/img/gato1.jpg" alt="..." />
+            <img class="mx-auto rounded-circle" src="assets/img/gato2.jpg"style = 'text-align:left' alt="..." />
+          
+        </div>
+            <div class="container">
+                <!-- En esta seccion añadi el titulo "Gatitos Protegidos" -->
+                <div class="masthead-heading text-uppercase">Gatitos Protegidos</div>
+                <!-- En esta seccion añadi los 2 botones para ir a la seccion de abajo el cual es el desarrollo del inicio -->
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Ver mediciones de temperaturas</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Ver eventos detectados</a>
+              <!-- Termine de añadir botones -->
+                
+            
+        </header>
+       
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <div  >
+                     <!-- En esta seccion realice la descripcion del proyecto con su titulo respectivo -->
+                     <h4 class="section-heading text-uppercase" style='text-align:left'>Descripcion del proyecto</h4>
+                     <h3 class="section-subheading text-muted" style='text-align:left'> Este proyecto trata sobre la importancia de nuestros animales, debido a que en el dia por nuestras actividades los dejamos a ellos muchas horas en casa solos, sin salir afuera para hacer sus necesidades o viceversa  en el exterior, por ende estos salen muy perjudicados por los cambios de temperatura que ocurren y con la realizacion de este proyecto queremos crear un sensor , el cual seria colocado en alguna puerta o ventana de tal manera que se abra y se cierre por un determinado tiempo, para que el animal salga o entre con el objetivo de que sus condiciones mejoren  y no sufran por estos cambios. 
+                        .</h3>
+                     </div>
+                 </div>
+                <!-- Termino la seccion de descripcion del proyecto -->
+                 
+
+                <!-- En esta seccion realice los botones y la tabla de ver mediciones de temperatura -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <!-- boton de ver mediciones de temperatura -->
+                            <button class="accordion-button collapsed btn-primary btn-xl text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Ver mediciones de temperatura
+                            </button>
+                             <!--Se termino el boton de ver mediciones de temperatura -->
+
+
+                              <!--Aca cree el texto de temperatura-->
+                            <h5 class="section-heading text-uppercase" style='text-align:left'>Temperatura</h5>
+                              <p class="h6 lead text-secondary" style='text-align:left'>
+                               <small>
+                               A la fecha se han realizado XYZ mediciones.
+                               <br>
+                               La temperatura mas alta registrada es X°
+                               <br>
+                               La temperatura mas Baja registrada es Y°
+                               <br>
+                               La temperatura promedio
+                            </small> 
+                              </p>
+
+                          </h2>
+                           <!--Aca se termino el texto de temperatura-->
+                           
+                          <!--Aca añadi la tabla con los datos ficticios puesto que no esta ingresado el arduino-->
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Hora</th>
+                                    <th scope="col">Temperatura</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>10/03/22</td>
+                                    <td>10:11:29</td>
+                                    <td>24°</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>11/03/22</td>
+                                    <td>10:03:22</td>
+                                    <td>23°</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>11/03/22</td>
+                                    <td>11:23:14</td>
+                                    <td>23°</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <!--Aca se termina el añadir la tabla con los datos ficticios puesto que no esta ingresado el arduino-->
+
+
+                   <!--Aca cree el texto eventos de temperatura-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed  btn-primary btn-xl text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ver eventos de temperatura
+                          </button>
+                          <h5 class="section-heading text-uppercase" style='text-align:left'>Eventos</h5>
+                          <p class="h6 lead text-secondary" style='text-align:left'>
+                           <small>
+                           A la fecha se han realizado XYZ eventos.
+                           <br>
+                           Se han detectado X eventos de temperatura fuera de rango.
+                           <br>
+                           Se han detectado Y eventos de proximidad a la puerta gatera.
+                          
+                        </small> 
+                          </p>
+                        </h2>
+                         <!--Aca se termino el texto de eventos de temperatura-->
+
+
+
+                          <!--Aca añadi la tabla con los datos ficticios puesto que no esta ingresado el arduino-->
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Hora</th>
+                                    <th scope="col">Tipo de evento</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>10/03/22</td>
+                                    <td>10:11:29</td>
+                                    <td>Proximidad puerta gatera</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>11/03/22</td>
+                                    <td>10:03:22</td>
+                                    <td>Apertura ventanas</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>11/03/22</td>
+                                    <td>11:23:14</td>
+                                    <td>Cierre ventanas</td>
+                                  </tr>
+                                </tbody>
+                              </table>  
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                  </div>
+               
+              <!--Aca se termina el añadir la tabla con los datos ficticios puesto que no esta ingresado el arduino-->  
+            </div>
+            </div>
+        </section>
+    
+
+       
+       
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
